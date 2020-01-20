@@ -32,6 +32,7 @@ public class CalendarEx3 {
 			tmp += difference/TIME_UNIT[i] + TIME_UNIT_NAME[i];
 			difference %= TIME_UNIT[i];
 		}
+		
 		System.out.println("시분초로 변환하면 " + tmp + "입니다.");
 	}
 }
