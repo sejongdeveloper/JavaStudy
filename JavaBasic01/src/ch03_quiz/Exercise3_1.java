@@ -1,4 +1,4 @@
-package ch03;
+package ch03_quiz;
 
 public class Exercise3_1 {
 	public static void main(String[] args) {
