@@ -6,7 +6,7 @@ import java.util.Calendar;
 public class PageCalc {
 	public static void main(String[] args) {
 		// 인자값: 현재페이지, 총페이지, 월~금 페이지, 토요일 페이지
-		String datePage = getDate(558, 980, 15, 25);
+		String datePage = getDate(607, 980, 15, 25);
 		System.out.println(datePage);
 		
 		// 인자값: 현재페이지, 총페이지, 월~금 페이지, 토요일 페이지, Calendar.class
