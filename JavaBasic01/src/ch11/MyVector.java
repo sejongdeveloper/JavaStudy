@@ -1,12 +1,9 @@
 package ch11;
 
 import java.util.Collection;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
-import java.util.Spliterator;
-import java.util.function.UnaryOperator;
 
 public class MyVector implements List{
 	Object[] data = null; // 객체를 담기 위한 객체배열을 선언한다.
