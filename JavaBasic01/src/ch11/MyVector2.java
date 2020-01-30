@@ -28,6 +28,13 @@ public class MyVector2 extends MyVector implements Iterator {
 	}
 	
 	@Override
+	public Iterator iterator() {
+		cursor = 0;
+		lastRet = -1;
+		return this;
+	}
+	
+	@Override
 	public boolean hasNext() {
 		return cursor != size();
 	}
