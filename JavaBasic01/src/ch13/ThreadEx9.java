@@ -36,6 +36,5 @@ public class ThreadEx9 {
 					+ ", Active ThreadGroup: " 		 + main.activeGroupCount()
 					+ ", Actuve Thread: " 			 + main.activeCount());
 		
-		
 	}
 }
