@@ -15,7 +15,9 @@ public class ThreadEx20 {
 			// 사용했을 경우 gc를 깨운다.
 			if(gc.freeMemory() < requireMemory || gc.freeMemory() < gc.totalMemory() * 0.4) {
 				gc.interrupt(); // 잠자고 있는 쓰레드 t1을 깨운다.
-				gc.yield();
+				try {
+					gc.join(100);
+				} catch (InterruptedException e) {}
 			}
 			
 			gc.usedMemory += requireMemory;
