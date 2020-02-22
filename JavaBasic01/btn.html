@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>버튼스타일</title>
+<link rel="stylesheet" type="text/css" href="DR0001CSS/default.css?ver=19.9.12" />
+<link rel="stylesheet" type="text/css" href="DR0001CSS/common.css?ver=19.9.12" />
+<link rel="stylesheet" type="text/css" href="DR0001CSS/content.css?ver=19.9.12" />
+<link rel="stylesheet" type="text/css" href="DR0001CSS/button.css?ver=19.9.12" />
+<style type="text/css">
+#btn_wrap {padding:50px;}
+#btn_wrap > p {margin:20px 0;}
+</style>
+</head>
+
+<body>
+<div id="btn_wrap">
+<button type="button" class="btns btn_st1">저장</button>
+<button type="button" class="btns btn_st2">저장</button>
+<button type="button" class="btns btn_st3">저장</button>
+<button type="button" class="btns btn_st4">저장</button>
+<button type="button" class="btns btn_st5">저장</button>
+<button type="button" class="btns btn_bdr1">저장</button>
+<button type="button" class="btns btn_bdr2">저장</button>
+<button type="button" class="btns btn_bdr3">저장</button>
+<button type="button" class="btns btn_bdr4">저장</button>
+<button type="button" class="btns btn_bdr5">저장</button>
+<p class="btn_set tl">
+<button type="button" class="btns btn_st1 btn_mid">저장</button>
+<button type="button" class="btns btn_bdr1 btn_mid">취소</button>
+</p>
+<p class="btn_set">
+<button type="button" class="btns btn_st1 btn_mid">저장</button>
+<button type="button" class="btns btn_bdr1 btn_mid">취소</button>
+</p>
+<p class="btn_set tr">
+<button type="button" class="btns btn_st1 btn_mid">저장</button>
+<button type="button" class="btns btn_bdr1 btn_mid">취소</button>
+</p>
+<div class="hidden">
+	<p class="fl">
+		<button type="button" class="btns btn_st1">저장</button>
+		<button type="button" class="btns btn_st2">저장</button>
+		<button type="button" class="btns btn_st3">저장</button>
+		<button type="button" class="btns btn_st4">저장</button>
+		<button type="button" class="btns btn_st5">저장</button>
+	</p>
+	<p class="fr">
+		<button type="button" class="btns btn_bdr1">저장</button>
+		<button type="button" class="btns btn_bdr2">저장</button>
+		<button type="button" class="btns btn_bdr3">저장</button>
+		<button type="button" class="btns btn_bdr4">저장</button>
+		<button type="button" class="btns btn_bdr5">저장</button>
+	</p>
+</div>
+<p>
+<button type="button" class="btns primary"><span class="bt_icon bt_excel">엑셀다운로드</span></button>
+<button type="button" class="btns primary"><span class="bt_icon icons bt_print">인쇄</span></button>
+<button type="button" class="btns primary"><span class="bt_icon icons bt_pdf">pdf</span></button>
+<a href="#" class="btns primary"><span class="bt_icon bt_excel">엑셀다운로드</span></a>
+<a href="#" class="btns primary"><span class="bt_icon icons bt_print">인쇄</span></a>
+</p>
+<p>
+<span class="btns btn_st4 btn_xs btnW50">대기중</span>
+<span class="btns btn_st3 btn_xs btnW50">완료</span>
+</p>
+<div class="file_input">
+	<input type="text" title="첨부파일" id="file_route" name="file_route" readonly />
+	<label> 첨부파일
+		<input type="file" id="att_file" name="att_file" onChange="javascript:document.getElementById('file_route').value=this.value"/>
+	</label>
+</div>
+</div>
+</body>
+</html>
