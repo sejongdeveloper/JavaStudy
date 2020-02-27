@@ -16,5 +16,8 @@ public class CastingEx4 {
 		System.out.printf("f=%f i2=%d%n", f, i2);
 		System.out.printf("d=%f i3=%d%n", d, i3);
 		System.out.printf("(int)%f=%d%n", f2, i4);
+		char ch = '1';
+		System.out.println("===");
+		System.out.println((int)ch);
 	}
 }
