@@ -1,0 +1,79 @@
+[2-1]
+논리형 boolean 1byte
+문자형 char 2byte
+정수형 byte 1byte, short 2byte, int 4byte, long 8byte
+실수형 float 4byte, double 8byte
+
+[2-2]
+byte regNo = 9203111234567;
+정답:long regNo = 9203111234567L;
+-13자리의 정수는 int형의 범위를 넘어섬
+
+[2-3]
+리터럴 : 100, 100L, 3.14f
+변수 : i, l, PI
+키워드 : int, long, float
+상수 : final
+
+정답 : 
+리터럴 : 100, 100L, 3.14f
+변수 : i, l
+키워드 : int, long, float, final
+상수 : PI
+
+[2-4]
+Byte
+
+[2-5]
+12
+true
+131
+51
+9 => 정답:99
+Java
+오류
+
+정답 : 문자와 문자의 덧셈연산의 결과는 int형의 정수값이 된다.
+
+
+[2-6]
+b. True
+c. NULL
+=>정답 : d.Class 추가
+=>정답 : e.System 추가
+
+[2-7]
+a.$ystem
+=>정답 : d.IF 추가
+e.자바
+g.$MAX_NUM
+
+[2-8]
+a.int
+d.float
+
+[2-9]
+d.float f = (float)l;
+e.i=(int)ch;
+
+[2-10]
+0~63353
+정답 : 0~65535
+
+[2-11]
+=>정답 : a.추가 // byte의 범위(-128~127)를 넘는 값으로 초기화 할 수 없음
+b.
+c.
+d.
+e. => 정답 : double값에 float값을 넣는 것이므로 OK
+
+[2-12]
+a.
+b.
+c.
+=> 정답 e. // public과 static은 위치가 바뀌어도 됨
+
+[2-13]
+=>정답 : c. // 0.0f가 기본값
+=>정답 : e. // 0L이 기본값
+f.
