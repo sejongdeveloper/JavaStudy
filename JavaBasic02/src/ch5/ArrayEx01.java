@@ -1,6 +1,6 @@
 package ch5;
 
-public class ArrayEx1 {
+public class ArrayEx01 {
 	public static void main(String[] args) {
 		int[] score = new int[5];
 		int k = 1;

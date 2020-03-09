@@ -2,7 +2,7 @@ package ch5;
 
 import java.util.Arrays;
 
-public class ArrayEx2 {
+public class ArrayEx02 {
 	public static void main(String[] args) {
 		int[] iArr1 = new int[10];
 		int[] iArr2 = new int[10];
